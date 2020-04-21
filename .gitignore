@@ -1,5 +1,5 @@
-HELP.md
-target/
+LP.md
+	target/	target/taaaarget/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+*.DS_Store
+.DS_Store
+**/target/**
+
