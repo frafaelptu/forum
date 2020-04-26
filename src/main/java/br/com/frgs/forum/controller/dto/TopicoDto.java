@@ -22,7 +22,7 @@ public class TopicoDto {
     }
 
     public static List<TopicoDto> converter(List<Topico> topicos) {
-        return topicos.stream().map((Topico topico) -> new TopicoDto(topico).collect(Collectors.toList()));
+        return topicos.stream().map((Topico topico) -> new TopicoDto(topico)).collect (Collectors.toList());
     }
 
     public Long getId() {
